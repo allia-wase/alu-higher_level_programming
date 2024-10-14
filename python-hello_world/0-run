@@ -1,0 +1,27 @@
+ #!/bin/bash
+
+# Check if the environment variable PYFILE is set
+if [ -z "$PYFILE" ]; then
+    echo "Error: The environment variable PYFILE is not set."
+    exit 1
+fi
+
+# Check if the specified Python file exists
+if [ ! -f "$PYFILE" ]; then
+    echo "Error: The file $PYFILE does not exist."
+    exit 1
+fi
+
+# Run the Python script
+python "$PYFILE"
+
+# Capture the exit status of the Python script
+STATUS=$?
+
+# Check if the Python script ran successfully
+if [ $STATUS -ne 0 ]; then
+    echo "Error: The Python script $PYFILE exited with status $STATUS."
+    exit $STATUS
+fi
+
+echo "Python script $PYFILE ran successfully."
