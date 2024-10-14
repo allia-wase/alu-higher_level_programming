@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-number = 333  # You can change this to any integer, including -98 or 0
-print(f"{number} Battery street")
+
+numbers = [-98, 0, 333]  # List of test cases
+
+for number in numbers:
+        print(f"{number} Battery street")
 
