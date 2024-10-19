@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-number = 98  # Replace with your desired integer
+number = <your_integer>  # Replace <your_integer> with the desired integer value
 
-print(f"{98} Battery street")
+print(f"{number} Battery street")
