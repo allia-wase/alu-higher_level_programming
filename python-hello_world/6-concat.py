@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-str1 = "Welcome to "
-str2 = "Holberton School!"
-print(1+2)  
+number = 1
+result = number
+print(result)
