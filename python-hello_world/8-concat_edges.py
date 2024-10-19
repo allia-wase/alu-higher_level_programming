@@ -2,4 +2,4 @@
 str1 = "object-oriented "
 str2 = "programming "
 str3 = "with Python"
-print(str1 + str2 + str3)  # Print concatenated strings
+print(str1 + str2 + str3)  # output the concatenated strings
