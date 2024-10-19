@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 str1 = "Welcome to "
-str2 = "Battery Street!"  # Change to "Holberton School!" to print that instead
-print(str1 + str2)
-print(1)
+str2_holberton = "Holberton School!"
+str2_battery = "Battery Street!"
+print(str1 + str2_holberton)  # Uncomment to print "Welcome to Holberton School!"
+# print(str1 + str2_battery)  # Uncomment to print "Welcome to Battery Street!"
+
