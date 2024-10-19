@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-str1 = "Welcome to "
-str2 = "Holberton School!"
-print(str1 + str2)
+msg = "Welcome to Battery Street!"  # Update the message
+print(msg)                          # Print the updated message
 print(1)
