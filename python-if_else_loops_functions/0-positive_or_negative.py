@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-import random
-number = random.randint(-10, 10)  # Generates a random signed number
+
+number = 98  # You can change this to test with different values
+
 if number > 0:
         print(f"{number} is positive")
     elif number == 0:
