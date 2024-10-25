@@ -1,8 +1,7 @@
 #!/usr/bin/python3
+
 for i in range(10):
-for j in range(i + 1, 10):
-if i != 0 or j != 0:
-if i != 8 or j != 9:
-  print("{:d}{:d}".format(i, j), end=", ")
-else:
-  print ("{:d}{:d}",format(i, j))
+        for j in range(i + 1, 10):
+                    print("{:02}{:02}".format(i, j), end=", " if not (i == 8 and j == 9) else "")
+                    print()  # To add a newline at the end
+
