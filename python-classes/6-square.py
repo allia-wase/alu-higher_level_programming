@@ -28,13 +28,13 @@ class Square:
 
     @size.setter
     def size(self, size):
-        if type(size) is not int:
+        if type(size) is not int 
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
-                                                                                        self.__size = size
+        self.__size = size
 
-                                                                                    def my_print(self):
+    def my_print(self):
         for i in range(self.__size):
             if i == 0:
                 print("\n" * self.__position[1], sep="", end="")
