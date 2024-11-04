@@ -5,9 +5,9 @@ an empty Square class
 
 
 class Square:
-     """
-     Square class
-     """
+    """
+    Square class
+    """
     def __init__(self, size=0):
         if type(size) is not int:
             raise TypeError("size must be an integer")
