@@ -14,11 +14,10 @@ def list_division(my_list_1, my_list_2, list_length):
             result.append(0)
         except ZeroDivisionError:
             print("division by 0")
-            result.append(0)
-        finally:
+            result.append(0)                                                            finally:
             if i >= len(my_list_1) or i >= len(my_list_2):
                 continue
-                                                                                                                                                                    return result
+    return result
 
 if __name__ == "__main__":
     my_list_1 = [10, 20, 30]
