@@ -1,5 +1,8 @@
-<<<<<<< HEAD
+# Project Title
+
 Java warm up
-=======
-Python - Hello, World
->>>>>>> 1af0b429f6c1706f779292ca1187dcbaee79ad51
+
+## Python - Hello, World
+
+Some description about Python and Java warm up.
+
